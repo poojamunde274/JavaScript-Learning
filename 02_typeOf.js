@@ -1,0 +1,32 @@
+console.log("---------------------------------------------------------------------------------");
+var bankName;
+console.log("Before Initialization:", bankName);
+var typeOfSbi = typeof bankName;
+console.log("Before Dat Type Of SBI Bank is:", typeOfSbi);
+bankName = 'SBI Bank';
+console.log("After Initialization:", bankName);
+var typeSbi = typeof bankName;
+console.log("After Data Type Of SBI Bank is:", typeSbi);
+console.log("---------------------------------------------------------------------------------");
+var marks = '90%';
+console.log("Marks is:", marks);
+var typeOfMarks = typeof marks;
+console.log("Data Type of marks:", typeOfMarks);
+console.log("---------------------------------------------------------------------------------");
+var isWorking;
+console.log("Before Initialization:", isWorking);
+var isWorking = true;
+console.log("After initialization:", isWorking);
+var typeOfisworking = typeof isWorking;
+console.log("Data Type of isWorking:", typeOfisworking);
+console.log("---------------------------------------------------------------------------------");
+var totalCount = "Hundred and Seven";
+console.log("Initialize Variable is:", totalCount);
+var dataType = typeof totalCount;
+console.log("Data Type Of:", dataType);
+
+totalCount = 107;
+console.log("After update variable is:", totalCount);
+ var typeOftotalcount = typeof totalCount;
+ console.log("After update variable Data Type of is:", typeOftotalcount);
+
