@@ -41,7 +41,7 @@ function stringHandsOn(){
     console.log(`------------------------------------------------------------------------------------------------------`);
 
     var startWith = removeSpaceString.startsWith("Hey");
-    console.log(`Step 9:The string Starts with word "Hey": ${startWith} `);
+    console.log(`Step 10:The string Starts with word "Hey": ${startWith} `);
 
 }
 stringHandsOn();
