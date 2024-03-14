@@ -28,13 +28,13 @@ function string(){
     var totalWord = str.split(" ");
     var totalWordLength = totalWord.length;
 
+    console.log(`The String Is: '${str}'`);
     console.log(`String Length Is:${strLength}`);
     console.log(`Total Word Is: ${totalWordLength}`);
 
     var divide = strLength / totalWordLength;
     console.log(`Result Of Divided by String Length And its Total Word Length:${divide}`);
-    console.log(`--------------------------------------------------------------------`);
-
+    
     var multiple = strLength * totalWordLength
     console.log(`Result Of Multiple by String Length And its Total Word Length:${multiple}`);
 
