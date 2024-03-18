@@ -1,6 +1,6 @@
 
 var voteEligibility = function(age){
-    if (age == 0 || age == -age || age > 130){
+    if (age == 0 || age == -age || age > 130 || age == null){
         console.log(`Invalid Data : ${age}`);
     } else {
         if (age < 18 ) {
