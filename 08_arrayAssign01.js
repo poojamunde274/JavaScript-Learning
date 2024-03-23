@@ -10,7 +10,7 @@ console.log(`Last Element of Array is : ${lastFruit}`);
 console.log(`-----------------------------------------------------------------------------------------------------`);
 
 console.log(`2. Add Papaya Before Banana.`);
-fruits_Seasonal.splice(0, 0 , "Papaya");
+fruits_Seasonal.unshift("Papaya");
 console.log(fruits_Seasonal);
 console.log(`-------------------------------------------------------------------------------------------------------`);
 
