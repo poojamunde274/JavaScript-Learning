@@ -3,7 +3,7 @@ const fruits_Seasonal =["Banana", "Orange", "Apple", "Mango", "water_Melon"];
 console.log(fruits_Seasonal);
 
 let firstFruit = fruits_Seasonal[0];
-let lastFruit = fruits_Seasonal[4];
+let lastFruit = fruits_Seasonal.slice(-1);
 console.log(`1.`);
 console.log(`First Element of Array is: ${firstFruit} `);
 console.log(`Last Element of Array is : ${lastFruit}`);
