@@ -13,7 +13,6 @@ console.log(`Last Elements Is: ${lastElement}`);
 
 console.log(`---------------------------------------------------------------------------------`);
 let thirdLastElement = arrayNumbers [arrayNumbers.length - 3];
-// let thirdLastElementIs = thirdLastElement;
 console.log(`The Third Last Element in Array: ${thirdLastElement}`);
 
 console.log(`---------------------------------------------------------------------------------`);
