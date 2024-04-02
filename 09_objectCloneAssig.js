@@ -3,10 +3,7 @@ const bankSbi = {
     bankName: "SBI",
     accountNo: 12345678943,
     IFSC: "SBIN000045",
-    branch: "Hinjewadi",
-    street: "Wakad",
-    city: "Pune",
-    pin: 411057
+    branch: "Hinjewadi"
 }
 console.log(`1. Create 'bankSbi' Object`);
 console.log(bankSbi);
